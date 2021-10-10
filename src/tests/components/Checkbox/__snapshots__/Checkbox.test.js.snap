@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Checkbox /> Should render Checkbox correctly 1`] = `
+<div
+  className="relative flex items-start"
+>
+  <div
+    className="flex items-center h-5"
+  >
+    <input
+      aria-describedby="comments-description"
+      className="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300 rounded"
+      id="comments"
+      name="comments"
+      type="checkbox"
+    />
+  </div>
+  <div
+    className="ml-3 text-sm"
+  >
+    <label
+      className="font-medium text-gray-700"
+      htmlFor="comments"
+    />
+    <span
+      className="text-gray-500 ml-1"
+      id="comments-description"
+    />
+  </div>
+</div>
+`;

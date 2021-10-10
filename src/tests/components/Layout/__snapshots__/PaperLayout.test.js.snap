@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <PaperLayout /> Should render PaperLayout correctly 1`] = `
+<div
+  className="bg-white shadow-md m-6 rounded-xl p-4 "
+/>
+`;

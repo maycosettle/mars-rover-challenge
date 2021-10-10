@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Input /> Should render Input correctly 1`] = `
+<Fragment>
+  <label
+    className="block text-sm font-medium text-gray-700"
+    htmlFor="label"
+  />
+  <div
+    className="mt-1"
+  >
+    <input
+      className="shadow-sm focus:ring-primary-500 focus:border-primary-500 block w-full sm:text-sm border-gray-300 rounded-md"
+      id=""
+      name=""
+      onChange={[Function]}
+      placeholder=""
+      type="text"
+    />
+  </div>
+</Fragment>
+`;

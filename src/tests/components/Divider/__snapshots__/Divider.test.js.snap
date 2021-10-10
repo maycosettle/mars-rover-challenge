@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Divider /> Should render Divider correctly 1`] = `
+<div
+  className="w-full border-b border-gray-100"
+/>
+`;
