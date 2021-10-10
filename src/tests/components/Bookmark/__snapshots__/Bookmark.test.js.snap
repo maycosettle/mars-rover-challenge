@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Bookmark /> Should render Bookmark correctly 1`] = `
+<Fragment>
+  <div
+    className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-yellow-100"
+  >
+    <ExclamationIcon
+      aria-hidden="true"
+      className="h-6 w-6 text-yellow-600"
+    />
+  </div>
+  <div
+    className="mt-3 text-center sm:mt-5"
+  >
+    <Title
+      as="h3"
+      className="text-lg leading-6 font-medium text-gray-900"
+    >
+      Do you want to save the bookmark?
+    </Title>
+    <div
+      className="mt-2"
+    >
+      <p
+        className="text-sm text-gray-500"
+      >
+        Enter a name for the bookmark
+      </p>
+      <div
+        className="flex items-center justify-center w-1/2 p-2 m-auto"
+      >
+        <Input
+          id=""
+          label=""
+          name=""
+          onChange={[Function]}
+          placeholder=""
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

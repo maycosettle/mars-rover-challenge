@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Filters /> Should render Filters correctly 1`] = `
+<div
+  className="grid grid-cols-7"
+>
+  <div
+    className="mt-8 p-2"
+  >
+    <Checkbox
+      checked={false}
+      description="2890"
+      label="Sol date"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="mt-8 p-2"
+  >
+    <Checkbox
+      checked={false}
+      description="2020-09-22"
+      label="Earth day"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="p-2"
+  >
+    <Select
+      label="Rover"
+      options={
+        Array [
+          Object {
+            "id": "Curiosity",
+            "name": "Curiosity",
+          },
+          Object {
+            "id": "Opportunity",
+            "name": "Opportunity",
+          },
+          Object {
+            "id": "Spirit",
+            "name": "Spirit",
+          },
+        ]
+      }
+      placeholder="Select a rover"
+      selected={Object {}}
+      setSelected={[Function]}
+    />
+  </div>
+  <div
+    className="p-2"
+  >
+    <Select
+      label="Rover Camera"
+      options={Array []}
+      placeholder="Select a camera"
+      selected={Object {}}
+      setSelected={[Function]}
+    />
+  </div>
+  <div
+    className="flex items-center justify-center mt-6 p-2"
+  >
+    <Button
+      bgColor="primary"
+      className=""
+      color="white"
+      disabled={true}
+      icon={
+        <SearchIcon
+          aria-hidden="true"
+          className="-ml-0.5 mr-2 h-4 w-4"
+        />
+      }
+      name="Search"
+      onClick={[Function]}
+      rounded="full"
+      transparent={false}
+      type="button"
+    />
+  </div>
+  <div
+    className="flex items-center justify-center mt-6 p-2 border-l"
+  >
+    <Button
+      bgColor="primary"
+      className=""
+      color="white"
+      disabled={false}
+      icon={
+        <BookmarkIcon
+          aria-hidden="true"
+          className="-ml-0.5 mr-2 h-4 w-4"
+        />
+      }
+      name="Add bookmark"
+      onClick={[Function]}
+      rounded="full"
+      transparent={false}
+      type="button"
+    />
+  </div>
+  <div
+    className="p-2"
+  >
+    <Select
+      label="Bookmarks"
+      options={Array []}
+      placeholder="Bookmarks"
+      selected=""
+      setSelected={[Function]}
+    />
+  </div>
+</div>
+`;

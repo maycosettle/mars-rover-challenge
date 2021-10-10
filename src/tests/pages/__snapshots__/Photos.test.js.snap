@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Photos /> Should render Photos correctly 1`] = `
+<Fragment>
+  <Header
+    title="Mars Rover Challenge"
+  />
+  <PaperLayout
+    className=""
+  >
+    <PhotoLayout>
+      <Filters
+        bookmarkOptions={Array []}
+        cameraOptions={Array []}
+        earthCheckbox={false}
+        handleBookmark={[Function]}
+        handleCamera={[Function]}
+        handleOpen={[Function]}
+        handleRover={[Function]}
+        handleSearch={[Function]}
+        selectedBookmark={Object {}}
+        selectedCamera={Object {}}
+        selectedRover={Object {}}
+        setEarthCheckbox={[Function]}
+        setSolCheckbox={[Function]}
+        solCheckbox={false}
+      />
+      <Divider
+        className=""
+      />
+    </PhotoLayout>
+    <EmptyTable />
+    <Modal
+      onClose={[Function]}
+      onSubmit={[Function]}
+      openModal={false}
+    >
+      <Bookmark
+        onChange={[Function]}
+      />
+    </Modal>
+  </PaperLayout>
+</Fragment>
+`;
